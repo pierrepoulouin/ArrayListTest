@@ -16,8 +16,17 @@ public class Application {
 		p1.setAge(23);
 		p1.setTelephone("privé");
 		p1.setEmail("PierreDuChnord@gmail.com");
-		
+
 		listePersonne.add(p1);
+
+		Personne p2 = new Personne();
+		p2.setNom("Bordes");
+		p2.setPrenom("Constance");
+		p2.setAge(20);
+		p2.setTelephone("public");
+		p2.setEmail("ConstanceZeBest@gmail.com");
+		
+		listePersonne.add(p2);
 
 
 
