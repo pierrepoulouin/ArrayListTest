@@ -11,6 +11,8 @@ public class Application {
 
 		//On crée une instance de la Classe Personne
 		Personne p1 = new Personne();
+		
+		//On affecte les valeurs à l'objet p1
 		p1.setNom("Poulouin");
 		p1.setPrenom("Pierre");
 		p1.setAge(23);
@@ -20,6 +22,8 @@ public class Application {
 		listePersonne.add(p1);
 
 		Personne p2 = new Personne();
+		
+		//On affecte les valeurs à l'objet p2
 		p2.setNom("Bordes");
 		p2.setPrenom("Constance");
 		p2.setAge(20);
