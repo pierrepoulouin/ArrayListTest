@@ -31,6 +31,14 @@ public class Application {
 		p2.setEmail("ConstanceZeBest@gmail.com");
 		
 		listePersonne.add(p2);
+		
+		for(int i = 0; i < listePersonne.size(); i++) {
+			System.out.print(listePersonne.get(i).getPrenom());
+			System.out.print(" " +listePersonne.get(i).getNom());
+			System.out.print(" " +listePersonne.get(i).getAge());
+			System.out.print(" " +listePersonne.get(i).getTelephone());
+			System.out.println(" " +listePersonne.get(i).getEmail());
+		}
 
 
 
